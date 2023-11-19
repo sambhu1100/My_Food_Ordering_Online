@@ -1,0 +1,146 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2 Mar, 2020, 1:31:50 PM
+    Author     : HP
+*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&subset=greek-ext');
+body{        
+        padding-top: 60px;
+        padding-bottom: 40px;
+        background-color: #FDEDEC;
+        background-repeat: no-repeat;
+        /*background-attachment: fixed;*/        
+        background-image:url("https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg?cs=srgb&dl=close-up-photography-of-pizza-1435907.jpg&fm=jpg");
+        background-position: center;
+        background-origin: content-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height:100vh;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .fixed-header{
+        width: 100%;
+        position: absolute;        
+        background: #FF5733;
+        padding: 10px 0;
+        color: white;
+        opacity: 0.8;
+    }
+    .fixed-footer{
+        width: 100%;
+        position:fixed;        
+        background: #FF5733;
+        padding: 10px 0;
+        color: white;
+        opacity: 0.8;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }
+    .container{
+        width: 100%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+.button {
+  background-color: #C0392B;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.btn{
+	color:#fff;
+	background-color:#e74c3c;
+	outline: none;
+        border: 0;
+        color: #fff;
+	padding:10px 20px;
+	text-transform:uppercase;
+	margin-top:50px;
+	border-radius:2px;
+	cursor:pointer;
+	position:relative;
+}
+
+
+/*New Body*/
+.text-center{
+    color:#fff;	
+    text-transform:uppercase;
+    font-size: 23px;
+    margin: -50px 0 80px 0;
+    display: block;
+    text-align: center;
+}
+.text-table{
+    color:#fff;	
+    /*text-transform:uppercase;*/
+    font-size: 18px;
+    margin: -50px 0 80px 0;
+    display: block;
+    text-align: left;
+}
+.box{
+	position:absolute;  /*--*/
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+        background-color: rgba(0, 0, 0, 0.89);
+	border-radius:3px;
+	padding:50px 70px;    /*before 70,100*/
+}
+
+.input-container{
+	position:relative;
+	margin-bottom:25px;
+}
+.input-container label{
+	position:absolute;            /*---*/
+	top:0px;
+	left:0px;
+	font-size:16px;
+	color:#fff;	
+        pointer-event:none;
+	transition: all 0.5s ease-in-out;
+}
+.input-container input{ 
+  border:0;
+  border-bottom:1px solid #555;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:#fff;
+}
+.input-container input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #e74c3c;	
+}
+
+
+.input-container input:focus ~ label,
+.input-container input:valid ~ label{
+	top:-12px;
+	font-size:12px;
+	
+}
+/*Default Hyperlink style*/
+a {
+  color: gold;
+  font-family: helvetica;
+  text-decoration: none;
+}
